@@ -1,12 +1,12 @@
 class Chattybara < Formula
   desc "Terminal radio chat client with the clean-room orca modem stack"
   homepage "https://github.com/nvk/chattybara"
-  version "0.1.0-alpha.11"
+  version "0.1.0-alpha.12"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/nvk/chattybara/releases/download/v0.1.0-alpha.11/chattybara-0.1.0-alpha.11-aarch64-apple-darwin.tar.gz"
-    sha256 "3f7115f8020beb69e749dc963c7a2b6695ffa86050adf81cbcf41a223117670d"
+    url "https://github.com/nvk/chattybara/releases/download/v0.1.0-alpha.12/chattybara-0.1.0-alpha.12-aarch64-apple-darwin.tar.gz"
+    sha256 "4b0f62ad26b4a9377a0e6acb1593bd469b5badd5560246128e648ef3423d1e16"
   else
     raise "prebuilt chattybara Homebrew formula currently supports Apple Silicon macOS only"
   end
